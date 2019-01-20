@@ -1,0 +1,19 @@
+html, body {
+    font-family: 'Raleway', sans-serif; 
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexin {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
