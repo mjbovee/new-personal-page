@@ -14,6 +14,12 @@ html, body {
     flex-direction: column;
 }
 
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Roboto Slab', serif;
+    margin: 0
+}
+
 .top, .bottom {
     min-height: 50vh;
     width: 100vw;
@@ -32,10 +38,24 @@ html, body {
 .bottom {
     color: #eee;
     background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
-    font-size: 3.5rem;
-    font-family: 'Roboto Slab', serif;
-    margin: 0
+.logos {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.logo img {
+	width: 3rem;
+	margin: 2rem;
+    transition: .3s;
+}
+
+.logo img:hover {
+	transform: scale(1.15);
 }
