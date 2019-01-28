@@ -51,7 +51,7 @@ h3 {
 .logos {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
 }
 
 .logo img {
@@ -63,6 +63,18 @@ h3 {
 
 .logo img:hover {
 	transform: scale(1.15);
+}
+
+i {
+    color: white;
+    opacity: .5;
+    margin: 2rem;
+    transform: scale(2.5);
+    transition: .3s;
+}
+
+i:hover {
+    transform: scale(2.875);
 }
 
 .name {
